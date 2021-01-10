@@ -1,0 +1,28 @@
+/* game board table */
+#game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#board td {
+  width: 70px;
+  height: 70px;
+  border: solid 1px #666;
+}
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+  background-color: gold;
+}
